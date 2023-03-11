@@ -38,13 +38,35 @@ label {
   display:inline;
   margin-right:50px;
   }
+  @media screen and (max-width : 873px){
+    .container-form{
+
+      width: 300px;
+      height: 520px;
+  
+  
+  }
+
+  form{
+
+    font-size: 14px;
+    
+  }
+  input{
+    height: 10px;
+    width: 180px;
+  }
+}
+
+
+
 
 `
 export default function Contact() {
   return (
     <FontStyle>
 
-<form method="post">
+<form name="contact" method="POST" data-netlify="true" onSubmit="submit">
     <div className='container-form'>
   
   <div>
