@@ -68,51 +68,21 @@ export default function Contact() {
   
   
   `
-  
-  const encode = (data) => {
-    return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-  }
-  
-  class ContactForm extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = { name: "", email: "", message: "" };
-    }
-    
-    /* Here’s the juicy bit for posting the form submission */
-    
-    handleSubmit = e => {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...this.state })
-      })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-      
-      e.preventDefault();
-    };
-    
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
-    render ()
-    {
-      const { name, email, message } = this.state;
+
       return (
         <>
       <FontStyle>
-      <form onSubmit={this.handleSubmit}>
+      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       
       <div className='container-form'>
       
       <div>
       <label for ="name"> Prénom : </label>
-      <input type="text" id="firstname" name="user_firstname" value={name} onChange={this.handleChange} placeholder='John' required/>
+      <input type="text" id="firstname" name="user_firstname"  placeholder='John' required/>
       </div>
       <div>
       <label for ="name"> Nom : </label>
-      <input type="text" id="name" name="user_name" value={name} onChange={this.handleChange}  placeholder='Doe' required/>
+      <input type="text" id="name" name="user_name"   placeholder='Doe' required/>
       </div>
       <div>
       
@@ -127,11 +97,11 @@ export default function Contact() {
       
       </select>
       <label for ="mail"> E-mail:&nbsp;</label>
-      <input type="email" id="mail" name="user_mail"  value={email} onChange={this.handleChange} placeholder='exemple@email.com' required/>
+      <input type="email" id="mail" name="user_mail"   placeholder='exemple@email.com' required/>
       </div>
       <div>
       <label for ="message"> Message : </label>
-      <textarea id="msg"  name="user_message"  value={message} onChange={this.handleChange} placeholder='Votre texte ici ...' required/>
+      <textarea id="msg"  name="user_message"   placeholder='Votre texte ici ...' required/>
       </div>
       
       <button type="submit" > Envoyé </button>
@@ -143,5 +113,3 @@ export default function Contact() {
       </>
       )
     }
-  }
-}
