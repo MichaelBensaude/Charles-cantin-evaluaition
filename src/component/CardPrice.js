@@ -22,6 +22,7 @@ const PrestationStyle =  styled.div  `
 
 }
 img {
+  
     border-radius:10%;
     width: 90%;
     height: 90%;

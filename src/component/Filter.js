@@ -8,9 +8,7 @@ export default function Filter({handleFilter}) {
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-evenly;
-      
-      
-      padding: 7rem;
+      padding: 10rem;
     }
     button {
 

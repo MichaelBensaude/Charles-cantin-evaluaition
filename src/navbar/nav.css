@@ -24,7 +24,7 @@ text-decoration: none;
 
     width: 40px;
     height: 40px;
-    background-color: transparent;
+   
     border: none;
     color: inherit;
     display: none;
@@ -37,6 +37,7 @@ text-decoration: none;
     }
     
     }
+
 
     
 
@@ -71,6 +72,15 @@ background: #FFF;
 
 }
 
+
+}
+
+@media screen and (max-width : 446px) {
+    .navbar{
+      
+        font-size: 28px;
+       
+        }
 
 }
 
