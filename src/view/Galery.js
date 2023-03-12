@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Filter from '../navbar/Filter';
+import Filter from '../component/Filter';
 import styled from 'styled-components';
 import Baby1 from '../img/Bébé/baby1.jpg';
 import Baby2 from '../img/Bébé/baby2.jpg';

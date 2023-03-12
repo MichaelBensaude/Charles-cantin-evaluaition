@@ -7,6 +7,7 @@ import About from './view/About';
 import Galery from './view/Galery';
 import Price from './view/Price';
 import Navbar from './navbar/Navbar';
+import Footerbar from './navbar/Footerbar';
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
   <Route  path='/galery' element = {<Galery/>}/>
   <Route  path='/price' element = {<Price/>}/>
 
-
 </Routes>
+<Footerbar/>
 </>
   );
 }
