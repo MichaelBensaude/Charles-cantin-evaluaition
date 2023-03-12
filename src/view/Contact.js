@@ -88,12 +88,12 @@ export default function Contact() {
       
       <label for="select"> Votre demande concerne :</label>
       
-      <select name="select" id="coice-select" required>
+      <select name="select" id="choice-select" required>
       <option value="">Merci de choisir parmis les choix suivant </option>
-      <option value="devis">Demande de devis</option>
-      <option value="particulier">Demande particulière</option>
-      <option value="rdv">Annulation de rdv</option>
-      <option value="retrait">Retrait de photo de la gallerie </option>
+      <option value="Demande de devis">Demande de devis</option>
+      <option value="Demande particulière">Demande particulière</option>
+      <option value=" Annulation de rdv">Annulation de rdv</option>
+      <option value="Retrait de photo de la galerie">Retrait de photo de la gallerie </option>
       
       </select>
       <label for ="mail"> E-mail:&nbsp;</label>
