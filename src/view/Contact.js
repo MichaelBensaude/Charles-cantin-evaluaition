@@ -72,8 +72,8 @@ export default function Contact() {
       return (
         <>
       <FontStyle>
-      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      
+      <form name="contact" method="post" data-netlify ="true" onSubmit="submit">
+      <input type="hidden"  name="form-name" value="contact" />
       <div className='container-form'>
       
       <div>
