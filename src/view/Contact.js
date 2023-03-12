@@ -78,17 +78,17 @@ export default function Contact() {
       
       <div>
       <label for ="name"> Prénom : </label>
-      <input type="text" id="firstname" name="user_firstname"  placeholder='John' required/>
+      <input type="text" id="firstname" name="firstname"  placeholder='John' required/>
       </div>
       <div>
       <label for ="name"> Nom : </label>
-      <input type="text" id="name" name="user_name"   placeholder='Doe' required/>
+      <input type="text" id="name" name="name"   placeholder='Doe' required/>
       </div>
       <div>
       
       <label for="select"> Votre demande concerne :</label>
       
-      <select name="choice" id="coice-select" required>
+      <select name="select" id="coice-select" required>
       <option value="">Merci de choisir parmis les choix suivant </option>
       <option value="devis">Demande de devis</option>
       <option value="particulier">Demande particulière</option>
@@ -97,11 +97,11 @@ export default function Contact() {
       
       </select>
       <label for ="mail"> E-mail:&nbsp;</label>
-      <input type="email" id="mail" name="user_mail"   placeholder='exemple@email.com' required/>
+      <input type="email" id="mail" name="email"   placeholder='exemple@email.com' required/>
       </div>
       <div>
       <label for ="message"> Message : </label>
-      <textarea id="msg"  name="user_message"   placeholder='Votre texte ici ...' required/>
+      <textarea id="msg"  name="message"   placeholder='Votre texte ici ...' required/>
       </div>
       
       <button type="submit" > Envoyé </button>
