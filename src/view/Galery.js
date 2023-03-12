@@ -89,11 +89,21 @@ export default function Galery() {
   ])
 
   const StyleGalery = styled.div`
-    .card {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-    }
+  .container{
+  
+    display:flex;
+    flex-direction : row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+  
+  }
+  .card {
+  width : 100%;
+  height :100%;
+  }
+img{
+margin : 50px;
+}
   `
 
   const [selectedCategory, setSelectedCategory] = useState("tout");
