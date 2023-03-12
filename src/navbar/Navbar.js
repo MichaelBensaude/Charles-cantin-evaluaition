@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '..//img/Logo.jpeg'
+import Logo from '../img/Logo.jpeg'
 import '..//navbar/nav.css';
 
 export default function Navbar() {
@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link className ='navbar_items' to ="/contact"> Nous contacter </Link>
         <Link  className ='navbar_items'to ="/price"> Tarifs et prestations</Link>
         <Link  className ='navbar_items'to ="/galery"> Galerie </Link>
-        <Link  className ='navbar_items'to ="/about"> A propos</Link>
+      
         <button className='navbar_burger'>
 
           <span  className='burger-bar'/>

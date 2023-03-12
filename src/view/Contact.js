@@ -93,7 +93,7 @@ export default function Contact() {
       <option value="Demande de devis">Demande de devis</option>
       <option value="Demande particulière">Demande particulière</option>
       <option value=" Annulation de rdv">Annulation de rdv</option>
-      <option value="Retrait de photo de la galerie">Retrait de photo de la gallerie </option>
+      <option value="Retrait de photo de la galerie">Retrait de photo de la galerie </option>
       
       </select>
       <label for ="mail"> E-mail:&nbsp;</label>

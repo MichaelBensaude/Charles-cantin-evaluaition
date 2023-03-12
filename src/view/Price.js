@@ -67,7 +67,7 @@ link = '#'
 src = {Weeding}
 alt = 'premiere image de test'
 title = '« J’immortalise l’événement » sur mesure'
-text  = 'ceci est du text '
+text  = 'Prestation de mariage ou baptême sur devis '
 link = '#'
 />
 
