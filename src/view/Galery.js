@@ -90,21 +90,37 @@ export default function Galery() {
 
   const StyleGalery = styled.div`
   .container{
-  
-    display:flex;
-    flex-direction : row;
-    justify-content: space-between;
-    flex-wrap:wrap;
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
+
   .card {
-  width : 100%;
-  height :100%;
+    width: 100%;
+    height: 100%;
   }
-img{
-margin : 50px;
-}
-  `
+
+  img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  @media (min-width: 768px) {
+    img {
+      margin: 10rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    img {
+      margin: 30px;
+    }
+  }
+`;
+
 
   const [selectedCategory, setSelectedCategory] = useState("tout");
 

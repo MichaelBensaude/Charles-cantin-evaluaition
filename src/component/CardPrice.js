@@ -8,7 +8,7 @@ const PrestationStyle =  styled.div  `
   
     height: 700px;
     width: 500px;
-    margin: 10rem;
+    margin: 11rem;
 
 }
 
@@ -22,7 +22,6 @@ const PrestationStyle =  styled.div  `
 
 }
 img {
-  
     border-radius:10%;
     width: 90%;
     height: 90%;
@@ -58,12 +57,16 @@ font-size : 14px;
     width: 300px;
 
     margin: 2rem;
-   
-    margin-top :8rem;
+    margin-top :12rem;
   }
   }
   
-
+  @media screen and (max-width : 320px){
+    .card-container{
+  
+margin-left:3rem;
+    }
+    }
 
 `
 export default function CardPrice({src, alt,title,text,link}) {
