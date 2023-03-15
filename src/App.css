@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 *{
 box-sizing: border-box;
 margin: 0;
@@ -15,12 +14,10 @@ background-size: cover;
 background-color: black;
 color: white;
 }
-li:hover{
-color: white;
-}
+
 a
 {
- color: orange;
+
  list-style: none;
 text-decoration:none;
 }

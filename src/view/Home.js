@@ -10,7 +10,7 @@ const HomeStyle = styled.div`
 
 } 
 h2 {
-  font-family: 'Pacifico';
+  font-family: 'Fjalla One', sans-serif;
 
   
   font-size : 96px; 

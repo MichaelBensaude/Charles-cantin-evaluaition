@@ -12,7 +12,16 @@ const StyleItems = styled.div `
 
 display : flex;
 }
+li{
+color:red;
+font-size:22px;
+}
+@media screen and (max-width : 375px){
+li{
+font-size: 12px;
 
+}
+}
 `
 return (
 <div className='footer_wrapper'>
