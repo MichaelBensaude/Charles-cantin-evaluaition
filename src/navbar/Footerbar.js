@@ -19,17 +19,23 @@ return (
     <div className='footer_container'>
 <StyleItems>
 
-        <Link  className ='navbar_items'to ="/"> Accueil</Link>
-        <Link className ='navbar_items' to ="/contact"> Nous contacter </Link>
-        <Link  className ='navbar_items'to ="/price"> Tarifs et prestations</Link>
-        <Link  className ='navbar_items'to ="/galery"> Galerie </Link>
+<ul className='navbar-links'>
+
+        <Link  to ="/"> <li> Accueil </li></Link>
+        <Link  to ="/contact"> <li> Nous contacter </li></Link>
+        <Link  to ="/price"><li> Tarifs et prestations </li></Link>
+        <Link  to ="/galery"> <li> Galerie </li> </Link>
+    
+</ul>
     
 </StyleItems>
     </div>
     <div className='footer_container'>
 <StyleItems>
 
-<Link  className ='navbar_items'to ="/about"> à propos</Link>
+<ul className='navbar-links'>
+<Link  className ='navbar_items'to ="/about"> <li> à propos </li> </Link>
+</ul>
 </StyleItems>
 </div>
 </div >
