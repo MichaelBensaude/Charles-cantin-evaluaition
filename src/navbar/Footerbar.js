@@ -11,16 +11,11 @@ const StyleItems = styled.div `
 .navbar_items{
 
 display : flex;
-}
-li{
-color:red;
-font-size:22px;
-}
-@media screen and (max-width : 375px){
-li{
-font-size: 12px;
 
 }
+li{
+padding: 5px;
+font-size: 16px;
 }
 `
 return (

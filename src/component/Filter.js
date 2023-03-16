@@ -7,34 +7,33 @@ export default function Filter({handleFilter}) {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+     
       justify-content: space-evenly;
       padding: 10rem;
     }
     button {
-
-      font-family: Pacifico;
+      font-family: "Fjalla One", sans-serif;
+      text-align: center;
     color :white;
-    border-radius : 20px;
-    background-color: rgba(51, 153, 194, 0.74);
-    border: 1px solid #0082b0;
-  font-size : 16px;
+    border-radius : 10px;
+    background-color: #4A4847;
+    border: 5px solid #4A4847;
+  font-size : 18px;
   margin : 10px;
   }
-  button:hover {
-  background-color :  red; 
-  }
+
   @media screen and (max-width : 1025px) {
-button{
-  display : flex;
-  width: 100vw;
-  border-radius: 0px;
-  margin : 1px;
-flex-direction : column;
-
-    
+    button {
+      display: flex;
+      width: 100vw;
+      border-radius: 0px;
+      margin: 1px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
-
-}
+  
     `
   
     

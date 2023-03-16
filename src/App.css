@@ -7,12 +7,14 @@ outline: none;
 }
 
 body{
+
 margin: 0;
 background: url(../src/img/home.jpeg) fixed;
 background-position: center top;
 background-size: cover;
-background-color: black;
+
 color: white;
+
 }
 
 a
@@ -20,4 +22,8 @@ a
 
  list-style: none;
 text-decoration:none;
+}
+li{
+    font-family: "Fjalla One", sans-serif;
+color: #FFFFFF;
 }

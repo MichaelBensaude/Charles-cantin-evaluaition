@@ -18,7 +18,7 @@ const AboutStyle = styled.div `
  }
  p{
    max-width:500px;
- 
+ font-size: 26px;
    border: 1px solid white;
    text-align: center;
  
