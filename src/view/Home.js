@@ -11,6 +11,7 @@ const HomeStyle = styled.div`
 } 
 h2 {
   font-family: 'Fjalla One', sans-serif;
+  color:white;
 
   
   font-size : 96px; 
