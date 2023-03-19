@@ -20,7 +20,19 @@ export default function Filter({handleFilter}) {
     border: 5px solid #4A4847;
   font-size : 18px;
   margin : 10px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.3s ease; 
   }
+
+
+  
+  
+  
+  button:hover {
+    border-bottom-color: #ffffff; 
+    cursor:pointer;
+  }
+  
 
   @media screen and (max-width : 1025px) {
     button {
